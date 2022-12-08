@@ -343,6 +343,7 @@ a{
         height: 80%;
     }
     .two_block_text h1{
+        text-align: center;
         font-size: 12px;
         padding-bottom: 10px;
     }
