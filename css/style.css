@@ -398,6 +398,9 @@ a{
     .three_content_block{
         padding-top: 20px;
     }
+    .three .title{
+        padding-bottom: 10px;
+    }
 
 }
 @media (max-width:480px) {
