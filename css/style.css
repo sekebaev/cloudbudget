@@ -202,6 +202,8 @@ header{
 }
 
 .two_img {
+    display: flex;
+    justify-content: center;
     height: 400px;
 }
 .two_block {
@@ -360,6 +362,7 @@ a{
     }
     .bars{
         display: block;
+        
     }
     .title_name{
         font-size: 40px;
@@ -371,7 +374,7 @@ a{
     }
     .one{
         padding-top: 30px;
-        display: flex;
+
         flex-direction: column;
         align-items: center;
         
