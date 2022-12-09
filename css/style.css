@@ -327,6 +327,74 @@ a{
 
 }
 
+.four{
+    background-color: #ED4C5C;
+    width: 100%;
+    margin-top: 100px;
+    padding: 95px 0 ;
+}
+
+.ff{
+    
+    display: flex;
+}
+
+.four_text_wrap{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.four_text{
+    width: 445px;
+
+}
+
+.four_img{
+    width: 50%;
+}
+
+.four_img img{
+    width: 100%;
+}
+.four_text{
+
+    color: #FFFFFF;
+}
+
+.four_text h1{
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 42.19px;
+
+}
+
+.four_text p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19.6px;
+    padding-top: 40px;
+    text-align: justify;
+}
+
+
+.four_ico{
+    padding-top: 40px;
+}
+
+.four_ico img:first-child{
+    padding-right: 28px;
+}
+
+
+
+
+
+
 
 
 
@@ -351,6 +419,16 @@ a{
 
     }
     .one_img{
+        width: 45%;
+    }
+    .ff{
+        justify-content: center;
+    }
+    .four_text{
+        padding-right: 20px;
+
+    }
+    .four_img{
         width: 45%;
     }
 }
@@ -394,6 +472,39 @@ a{
     .one_text h1{
         font-size: 24px;
     }
+
+    .four{
+        padding-top: 20px;
+    }
+    .ff{
+        padding-top: 0;
+        flex-direction: column-reverse;
+        align-items: center;
+        
+    }
+    .four_text_wrap{
+        text-align: center;
+        width: 100%;
+    }
+    .four_img{
+        padding-top: 0;
+        width: 100%;
+    }
+    .four_text{
+        padding-right: 0;
+        width: 100%;
+    }
+    .four_text h1{
+        padding-top: 20px;
+        font-size: 24px;
+    }
+    .four_text p{
+        padding-top: 10px;
+    }
+    .four_ico{
+        padding-top: 20px;
+    }
+
     .three_content{
         flex-wrap: wrap;
         justify-content: center;
