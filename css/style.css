@@ -41,6 +41,7 @@ header{
 }
 
 .logo {
+
     display: flex;
     font-size: 18PX;
     line-height: 21.6px;
@@ -65,6 +66,77 @@ header{
 .bars {
     display: none;
     font-size: 25px;
+}
+
+.overflow{
+    overflow: hidden;
+}
+
+.bars-menu{
+    position: relative;
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 70vw;
+    height: 100%;
+    background-color: #FAFAFA;
+    transform: translateX(100vw);
+    transition: .2s;
+    position: fixed;
+    color:#ED4C5C;
+    font-family: 'Roboto', sans-serif;
+}
+
+.bars-menu.active{
+    transform: translateX(30vw);
+    transition: .2s;
+}
+
+.bars-list ul{
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style-type: none;
+    
+}
+
+.button-close-bars{
+    font-size: 25px;
+}
+
+.top{
+    padding: 10px 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bars-list a{
+
+    
+    color:#ED4C5C;
+    text-decoration: none;
+}
+
+.bars-menu .logo{
+    font-size: 30px;
+}
+
+.bars-footer{
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+}
+
+.bars-content{
+    margin-top: 40vh;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+
+
 }
 
 .title {
@@ -451,7 +523,7 @@ footer{
     font-family: 'Roboto', sans-serif;
     background-color:#FAFAFA;
     color: #ED4C5C;
-    height: 200px;
+    height: 100px;
     width: 100%;
 
 }
@@ -528,6 +600,18 @@ footer{
 }
 
 @media (max-width:768px) {
+    .bars{
+        display: block;
+    }
+    
+    .bars-menu{
+        display: block;
+    }
+    .ico i{
+        display: flex;
+        align-items: center;
+    }
+
     .nav{
         display: none;
 
